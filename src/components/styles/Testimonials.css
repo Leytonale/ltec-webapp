@@ -1,0 +1,38 @@
+/* Estilos para la sección de testimonios */
+.testimonials {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .testimonials-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .testimonial-card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-author {
+    font-size: 14px;
+    color: #777;
+  }
+  

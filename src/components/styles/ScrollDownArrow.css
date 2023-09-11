@@ -1,0 +1,46 @@
+/* Estilos para la flecha hacia abajo */
+.scroll-down-arrow {
+    position: absolute;
+    bottom: 20px; /* Ajusta la posición vertical según tus necesidades */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px; /* Ajusta el tamaño de la flecha */
+    color: #007BFF; /* Cambia el color según tu diseño */
+    cursor: pointer;
+    animation: bounce 2s infinite; /* Agrega una animación sutil, puedes personalizarla */
+    opacity: 0; /* Inicialmente, establece la opacidad en 0 para ocultar la flecha */
+    transition: opacity 0.5s ease; /* Aplica una transición suave a la opacidad *
+    
+    /* Estilos para el ícono de flecha (si estás utilizando Font Awesome) */
+    .fa-chevron-down {
+    width: 70px;
+    transform: translate(-42%, -50%);
+    filter: drop-shadow(1px 4px 3px black);
+    margin-bottom: -6vh;
+    }
+  }
+  
+/* Estilos para la flecha de desplazamiento hacia abajo */
+  /* Estilos para mostrar la flecha gradualmente */
+  .scroll-down-arrow.visible {
+    opacity: 1; /* Muestra la flecha gradualmente al establecer la opacidad en 1 */
+  }
+  
+  /* Ajusta la duración del desplazamiento aquí */
+  html {
+    scroll-behavior: smooth 1s; /* Duración de 500 milisegundos (0.5 segundos) */
+  }
+  
+  /* Animación de rebote */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  

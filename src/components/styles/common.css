@@ -1,0 +1,52 @@
+/* Estilos compartidos para todo el sitio web */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Agrega estilos globales aquí, como fuentes, colores, márgenes, etc. */
+    textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  select,input[type="tel"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: white;
+    border-bottom: 1px solid #81668252;
+  }
+
+    label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+    .form-group  {
+    margin-bottom: 20px;
+  }
+  

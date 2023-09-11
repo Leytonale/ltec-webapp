@@ -1,0 +1,20 @@
+/* Estilos específicos para el banner principal */
+.banner {
+    background-color: #333;
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+  }
+  
+  .banner-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .banner-description {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  

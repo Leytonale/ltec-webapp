@@ -1,0 +1,87 @@
+/* Estilos para la sección "Acerca de Nosotros" */
+.about {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.about-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+
+
+
+/* Estilos para la sección de Fundadores */
+.founders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.founders-title {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.founder-card {
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: #6782a438;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.founder-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin: 0 auto 10px;
+  filter: drop-shadow(1px 3px 6px #0000003d);
+}
+
+.founder-name {
+  font-size: 1.25rem;
+  margin: 10px 0;
+}
+
+.founder-description {
+  margin: 10px;
+  text-align: center;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-right: 3px;
+  padding: 8px 16px;
+  background-color: #667C99C4;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  
+}
+
+.social-icon i {
+  margin-right: 5px;
+}
+
+.social-icon:hover {
+  background-color: #0056b3;
+}
+

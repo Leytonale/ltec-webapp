@@ -1,0 +1,73 @@
+/* Estilos para la Home en una página de inicio estilo "one-page" */
+
+/* Contenedor principal con fondo de imagen */
+.home {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100vh; /* Ocupa el 100% de la altura de la pantalla visible */
+    background-image: url('../images/fondo.png'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    position: relative; /* Añadimos posición relativa para ajustar el z-index */
+  }
+  
+  /* Estilo para el fondo semitransparente */
+  .home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6); /* Color de fondo semitransparente */
+  }
+  
+  /* Contenido de texto centrado */
+  .home-content {
+    text-align: center;
+    position: relative; /* Añadimos posición relativa para ajustar el z-index */
+    z-index: 1; /* Coloca el contenido de texto por encima del fondo */
+  }
+  
+  /* Título principal */
+  .home-content h1 {
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    filter: drop-shadow(2px 2px 2px black);
+    width: 60%;
+    display: inline-flex;
+  }
+  
+  /* Párrafos de texto */
+  .home-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    filter: drop-shadow(3px 3px 1px #000);
+  }
+  
+  /* Botón de "Contáctanos" */
+  .home-content button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Cambio de color del botón al pasar el cursor */
+  .home-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo de la imagen (no hay imagen en este diseño) */
+  .home-image {
+    display: none; /* Oculta el contenedor de la imagen */
+  }
+  

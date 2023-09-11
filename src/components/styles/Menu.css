@@ -1,0 +1,67 @@
+/* Estilos para el menú lateral */
+.menu {
+    position: fixed;
+    top: 50%;
+    right: -300px;
+    transform: translateY(-50%);
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    z-index: 1000;
+    transition: right 0.3s;
+    display: block;
+    box-shadow: -3px 3px 10px #514b4b69;
+  }
+/* Estilos cuando el menú está visible */
+.menu.visible {
+        right: 0px;
+        transition: right 0.3s; /* Ajusta el valor para mostrar el botón y el menú */
+  }
+
+/* Estilos para el botón de despliegue */
+.menu-button {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    z-index: 1001;
+    transition: right 0.3s cubic-bezier(.9,.03,0,.97) -0.07s;
+    display: block;
+    box-shadow: -3px 3px 6px -2px #525253;
+  }
+  
+  /* Estilos cuando el menú está visible */
+  .menu-button.visible {
+    right: 194px; 
+    display: block;
+    transition: right 0.3s;/* Ajusta el valor para mostrar el botón y el menú */
+  }
+  
+  /* Estilos para la lista de enlaces del menú */
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+
+  

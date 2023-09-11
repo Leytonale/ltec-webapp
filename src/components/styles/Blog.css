@@ -1,0 +1,30 @@
+/* Estilos para la sección de Blog */
+
+/* Estilo para el contenedor principal de la sección de Blog */
+.blog-container {
+    max-width: 800px; /* Ancho máximo del contenido del blog */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+    padding: 20px; /* Espacio interno alrededor del contenido */
+  }
+  
+  /* Estilo para los títulos de los artículos del Blog */
+  .blog-title {
+    font-size: 24px; /* Tamaño de fuente del título */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 10px; /* Espacio inferior entre títulos */
+  }
+  
+  /* Estilo para el contenido de los artículos del Blog */
+  .blog-content {
+    font-size: 16px; /* Tamaño de fuente del contenido */
+    line-height: 1.5; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Espacio inferior entre párrafos */
+  }
+  
+  /* Estilo para las imágenes de los artículos del Blog */
+  .blog-image {
+    max-width: 100%; /* Ancho máximo de las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-bottom: 20px; /* Espacio inferior entre imágenes */
+  }
+  

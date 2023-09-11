@@ -1,0 +1,120 @@
+/* Estilos para el modal de presupuesto */
+.presupuesto-modal {
+    position: absolute;
+    top: 50%; /* Centra verticalmente en la pantalla */
+    left: 50%; /* Centra horizontalmente en la pantalla */
+    transform: translate(-50%, -50%); /* Centra el modal exactamente en el centro */
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80%; /* Establece el ancho máximo del modal */
+    transition: 1s;
+  }
+  
+  /* Estilos para el fondo del modal */
+  .presupuesto-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    backdrop-filter: blur(5px); /* Aplica un efecto de desenfoque al fondo */
+  }
+
+/* Estilos para el formulario de presupuesto */
+.presupuesto-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%; /* Establece el ancho máximo del formulario */
+    text-align: center; /* Centra el contenido del formulario */
+    overflow: auto; /* Agrega barras de desplazamiento si el contenido es demasiado largo */
+    width: 100vh; /* Hace que el formulario sea un cuadrado */
+    height: 85vh;
+    margin: 0 auto; /* Centra el formulario horizontalmente en su contenedor */
+    padding-bottom: 0px;
+  }
+  
+  /* Estilos específicos para el textarea */
+  .presupuesto-form textarea {
+    min-height: 100px; /* Establece una altura mínima para el textarea */
+    resize: none; /* Evita que el usuario cambie el tamaño del textarea */
+  }
+  
+  /* Resto de estilos (etiquetas, select, inputs, botones) como los tenías */
+
+  .presupuesto-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #datoscliente {
+    display: flex;
+    width: 99%;
+  }
+  #datosdecontacto {
+    width: 50%;
+    margin: 0px auto 20px auto;
+  }
+  #Selectores {
+    display: flex;
+  }
+
+  #box-client{
+    display: flex;
+    margin-right: 0px;
+    padding-left: 80px;
+    padding-right: 84px;
+  }  
+  #box-cliente select {
+    width: 101%;
+  }
+  #OS {
+    display: flex;
+    margin-right: 0px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+
+  #box-dispositivo {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  #marcaModelo {
+    width: 89%;
+  }
+
+  #box-nombre{
+    width: 95%;
+    margin: 0px auto 20px auto;
+  }
+  #comoNosEncontro {
+    margin-top: -4vh;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+  #comoNosEncontro select {
+    width: 99%;
+  }
+
+  #comoNosEncontro label{
+    margin-bottom: 20px;
+  }
+
+  #aceptaPolitica {
+    display: flex;
+    padding-right: 22vh;
+    padding-left: 25vh;
+  }
+  /* Media query para estilos en pantallas más pequeñas */
+  @media screen and (max-width: 768px) {
+    .presupuesto-form {
+      padding: 10px;
+    }
+  }
+  

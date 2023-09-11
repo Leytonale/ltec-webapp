@@ -1,0 +1,42 @@
+/* Estilos para la página de contacto */
+.contact {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .contact-description {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  
+  #cta-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #cta-button:hover {
+    background-color: #d00;
+  }
+  

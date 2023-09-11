@@ -1,0 +1,52 @@
+/* Estilos para la sección "Nuestros Servicios" */
+.services {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.service-card {
+  width: 300px;
+  margin: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.service-description {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Media query para estilos en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .service-card {
+    width: 100%;
+  }
+}
